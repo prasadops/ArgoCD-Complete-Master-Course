@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-deployment
+  name: example
   namespace: argocdappdemo
 spec:
   replicas: 3
@@ -39,7 +39,7 @@ spec:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: example-configmap
+  name: exple-configmap
   namespace: argocdappdemo
 data:
   key1: value1
